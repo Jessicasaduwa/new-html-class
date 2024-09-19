@@ -1,10 +1,35 @@
-img {
-    width: 90%;
-}
 button {
-    padding: 1rem 2rem;
-    background-color: transparent;
-    border-radius: 9px;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: inherit;
+    border: 0 solid #e2e8f0;
+    --transition-duration: 250ms;
+    margin: 0;
+    overflow: visible;
+    background: 0 0;
+    cursor: pointer;
+    line-height: inherit;
+    -webkit-appearance: button;
+    background-color: #0d60d8;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: U8,sans-serif;
+    font-weight: 700;
+    margin-top: 2rem;
+    padding-bottom: .75rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 100%;
+    flex-direction: row;
+    font-size: .875rem;
 }
 
 .footer{
@@ -100,6 +125,32 @@ button {
     padding-bottom: 3rem;
 }
 
+.header {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    box-sizing: inherit;
+    border: 0 solid #e2e8f0;
+    --transition-duration: 250ms;
+    margin: 0;
+    font-family: U8,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #083e9e;
+    font-size: 1.5rem;
+}
+
+.para {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    box-sizing: inherit;
+    border: 0 solid #e2e8f0;
+    --transition-duration: 250ms;
+    margin: 0;
+    font-family: Karla,sans-serif;
+    text-align: center;
+    color: #4a5568;
+    font-size: .875rem;
+}
 
 .input-group {
     -webkit-text-size-adjust: 100%;
@@ -112,6 +163,38 @@ button {
     flex-direction: column;
     margin-bottom: 2rem;
     position: relative;
+}
+
+label {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: inherit;
+    border: 0 solid #e2e8f0;
+    --transition-duration: 250ms;
+    font-family: U8,sans-serif;
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: .25rem;
+    color: #4a5568;
+    font-size: .75rem;
+}
+
+input {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: inherit;
+    border: 0 solid #e2e8f0;
+    --transition-duration: 250ms;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    line-height: inherit;
+    background-color: #edf2f7;
+    border-radius: .25rem;
+    outline: 0;
+    color: #1a202c;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 
